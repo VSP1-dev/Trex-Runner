@@ -84,7 +84,7 @@ function draw() {
     if(ObstaclesGroup.isTouching(trex)){
       playSound("jump.mp3");
       gameState = END;
-        playSound("die.mp3");
+      playSound("die.mp3");
     }
   }
   else if(gameState === END)
